@@ -89,6 +89,7 @@ def run_rng_app(query):
     return result['topic']
 
 #visualize and save state graph as png
-with open("../assets/graph_rng.png", "wb") as f:
-    f.write(app.get_graph(xray=True).draw_mermaid_png())
-print('graph saved')
+if __name__ == '__main__':
+    with open("../assets/graph_rng.png", "wb") as f:
+        f.write(app.get_graph(xray=True).draw_mermaid_png())
+    print('graph saved')
