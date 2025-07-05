@@ -13,7 +13,7 @@ load_dotenv()
 
 #initialize phoenix client and retrieve named dataset
 client = px.Client(endpoint="http://127.0.0.1:6006")
-dataset = client.get_dataset(name="LLM-route1000")
+dataset = client.get_dataset(name='RNG-route1000')
 
 #initialize our LLM
 llm = ChatOpenAI(
