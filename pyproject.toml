@@ -1,0 +1,14 @@
+[project]
+name = "llmrouter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "arize-phoenix>=11.4.0",
+    "langchain>=0.3.26",
+    "langchain-core>=0.3.68",
+    "langchain-openai>=0.3.27",
+    "langgraph>=0.5.1",
+    "python-dotenv>=1.1.1",
+]
